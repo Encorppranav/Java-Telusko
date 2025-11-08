@@ -36,7 +36,7 @@ class Learner{
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class Encapsulation {
     public static void main(String[] args) {
 
       Learner l = new Learner();
@@ -49,7 +49,7 @@ public class Main {
         System.out.println("The Id of user is "+id);
 
         System.out.println("Name of user is "+ l.getName() );
-        System.out.println("City" + l.getCity());
+        System.out.println("City-" + l.getCity());
 
 
     }
